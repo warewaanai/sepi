@@ -1,1 +1,1 @@
-web: gunicorn srsi_back/main:app --log-file=-
+web: gunicorn --chdir srsi_back main:app --log-file=-
