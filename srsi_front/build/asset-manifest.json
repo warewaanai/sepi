@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/react/css/main.d4b1647b.chunk.css",
+    "main.js": "/static/react/js/main.1d456da4.chunk.js",
+    "main.js.map": "/static/react/js/main.1d456da4.chunk.js.map",
+    "runtime-main.js": "/static/react/js/runtime-main.f4864d25.js",
+    "runtime-main.js.map": "/static/react/js/runtime-main.f4864d25.js.map",
+    "js/2.c8a05f64.chunk.js": "/static/react/js/2.c8a05f64.chunk.js",
+    "js/2.c8a05f64.chunk.js.map": "/static/react/js/2.c8a05f64.chunk.js.map",
+    "../templates/index.html": "/static/react/../templates/index.html",
+    "css/main.d4b1647b.chunk.css.map": "/static/react/css/main.d4b1647b.chunk.css.map",
+    "js/2.c8a05f64.chunk.js.LICENSE.txt": "/static/react/js/2.c8a05f64.chunk.js.LICENSE.txt",
+    "media/App.scss": "/static/react/media/JetBrainsMono-Regular.7f9e93f2.ttf",
+    "media/defaultAvatar.c3f94521.png": "/static/react/media/defaultAvatar.c3f94521.png",
+    "media/menuIcon.7f471b33.png": "/static/react/media/menuIcon.7f471b33.png"
+  },
+  "entrypoints": [
+    "js/runtime-main.f4864d25.js",
+    "js/2.c8a05f64.chunk.js",
+    "css/main.d4b1647b.chunk.css",
+    "js/main.1d456da4.chunk.js"
+  ]
+}

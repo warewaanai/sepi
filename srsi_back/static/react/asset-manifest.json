@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/react/css/main.8505fb84.chunk.css",
+    "main.js": "/static/react/js/main.4abc1419.chunk.js",
+    "main.js.map": "/static/react/js/main.4abc1419.chunk.js.map",
+    "runtime-main.js": "/static/react/js/runtime-main.f4864d25.js",
+    "runtime-main.js.map": "/static/react/js/runtime-main.f4864d25.js.map",
+    "js/2.26f86b32.chunk.js": "/static/react/js/2.26f86b32.chunk.js",
+    "js/2.26f86b32.chunk.js.map": "/static/react/js/2.26f86b32.chunk.js.map",
+    "../../templates/index.html": "/static/react/../../templates/index.html",
+    "css/main.8505fb84.chunk.css.map": "/static/react/css/main.8505fb84.chunk.css.map",
+    "js/2.26f86b32.chunk.js.LICENSE.txt": "/static/react/js/2.26f86b32.chunk.js.LICENSE.txt",
+    "media/App.scss": "/static/react/media/JetBrainsMono-Regular.7f9e93f2.ttf",
+    "media/acc.28fb01b7.png": "/static/react/media/acc.28fb01b7.png",
+    "media/babes_bolyai.d9dd75b1.gif": "/static/react/media/babes_bolyai.d9dd75b1.gif",
+    "media/defaultAvatar.c3f94521.png": "/static/react/media/defaultAvatar.c3f94521.png",
+    "media/infoarena.d5f5add2.png": "/static/react/media/infoarena.d5f5add2.png",
+    "media/logo.b86c36aa.jpg": "/static/react/media/logo.b86c36aa.jpg",
+    "media/menuIcon.7f471b33.png": "/static/react/media/menuIcon.7f471b33.png",
+    "media/pbinfo.28a498e8.png": "/static/react/media/pbinfo.28a498e8.png",
+    "media/unibuc.23830358.jpg": "/static/react/media/unibuc.23830358.jpg",
+    "media/universitaria.5000052d.png": "/static/react/media/universitaria.5000052d.png",
+    "media/univiasi.8a643c53.jpg": "/static/react/media/univiasi.8a643c53.jpg",
+    "media/upir.e60875e6.gif": "/static/react/media/upir.e60875e6.gif",
+    "media/uvt.a0707e23.jpg": "/static/react/media/uvt.a0707e23.jpg"
+  },
+  "entrypoints": [
+    "js/runtime-main.f4864d25.js",
+    "js/2.26f86b32.chunk.js",
+    "css/main.8505fb84.chunk.css",
+    "js/main.4abc1419.chunk.js"
+  ]
+}

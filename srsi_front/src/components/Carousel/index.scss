@@ -1,0 +1,74 @@
+.Carousel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    .CarouselRow {
+        width: 200%;
+        overflow: hidden;
+        height: 100px !important;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        cursor: pointer;
+
+        &:hover {
+            animation-play-state: paused !important;
+        }
+
+        .slice {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            width: 50%;
+            min-width: max-content;
+            margin: 0;
+
+            .PictureFrame {
+                height: 100px;
+                cursor: pointer;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                margin-left: 32px;
+                margin-right: 32px;
+
+                .CarouselPic {
+                    height: 70px;
+                    transition: 0.3s;
+                }
+                .CarouselPic:hover {
+                    height: 80px;
+                }
+            }
+        }
+    }
+}
+
+@keyframes slideSliceLeft {
+    0% {
+        transform: translateX(0);
+    }
+    99.999% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideSliceRight {
+    0% {
+        transform: translateX(-100%);
+    }
+    99.999% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}

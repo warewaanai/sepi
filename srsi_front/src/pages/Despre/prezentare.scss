@@ -1,0 +1,24 @@
+#prezentare {
+    width: 100%;
+}
+#PrezentareScreen {
+    display: block;
+    width: 100%;
+
+    #VennDiagramContainer {
+        display: block;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: middle;
+        #VennDiagram {
+            width: 500px;
+            max-width: 100%;
+        }
+        height: min-content;
+        float: right;
+    }
+    #PrezentareText {
+        width: 500px;
+        max-width: 100%;
+    }
+}
