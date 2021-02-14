@@ -87,6 +87,21 @@ def meta_member(member):
     return json.dumps(data), 200
 
 
+@app.route('/api/list_announcements')
+def list_announcements():
+    res = {}
+    for filename in os.listdir('./static/announcements'):
+        if filename[0] != '.':
+            with open("./static/announcements/" + filename + "/meta.json") as f:
+                metadata = f.read()
+                tdict = json.loads(metadata)
+                if tdict["visible"] == False:
+                    continue
+                tdict["content"] = open("./static/announcements/" + filename + "/content.jsx").read()
+
+                res[filename] = tdict
+
+    return res
 
 @app.route('/')
 def index():

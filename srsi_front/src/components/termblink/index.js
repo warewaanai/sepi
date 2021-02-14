@@ -8,11 +8,13 @@ const TermBlink = props => {
     const blink = (props.blink ? props.blink : false);
 
     useEffect(() => {
-        if (state === 0) {
-            setState({
-                text: '_',
-                counter: 0,
-            });
+        if (state === 0 || typeof(props.children) != 'string') {
+            window.setTimeout(() =>
+                setState({
+                    text: '_',
+                    counter: 0,
+                }),
+            100);
         }
         else {
             if (state.counter <= props.children.length) {
