@@ -9,6 +9,7 @@ import Infoarena from './infoarena.png'
 import Pbinfo from './pbinfo.png'
 import ACC from './acc.png'
 import FII from './fii.png'
+import SSMR from './ssmr.png'
 import unibuc from './unibuc.jpg'
 import universitaria from './universitaria.png'
 import UVT from './uvt.jpg'
@@ -33,6 +34,7 @@ const Parteneri = props => {
         <Carousel content={[
             [{link: "https://pbinfo.ro/", pic: Pbinfo}, {link: "http://upir.ro/index.php/ro/", pic: upir}, {link: "https://profs.info.uaic.ro/~consortiu/index.html", pic: universitaria}],
             [{link: "https://infoarena.ro/", pic: Infoarena}, {link: "https://www.info.uaic.ro/", pic: FII}, {link: "https://www.uaic.ro/", pic: univiasi}, {link: "https://liceecentenare.ro/", pic: ACC}],
+            [{link: "https://rms.unibuc.ro/", pic: SSMR}, {link: "https://www.uvt.ro/ro/", pic: UVT}, {link: "https://unibuc.ro/", pic: unibuc}, {link: "https://www.ubbcluj.ro/ro/", pic: bolyai}]
         ]}/>
     </div>
 };
