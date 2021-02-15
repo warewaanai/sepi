@@ -18,7 +18,7 @@
 
 <p>     6. Chiar și în cazul organizării de centre unde proba se susține după scenariul <i>Online instituțional</i>, elevii pot opta să susțină proba în scenariul <i>Online individual</i> (pot exista și motive obiective cum ar fi izolarea la domiciliu).</p>
 
-<p>     7. Ținând cont de numărul mare de solicitări primite și de analiza din cadrul grupului de lucru pentru organizarea OSEPI, am decis că elevii care vor susține proba de acasă (în scenariul Online individual) au obligația de a realiza două filmări audio/video (și nu 3 cum era anunțat inițial), cuprinzând:
+<p>     7. Ținând cont de numărul mare de solicitări primite și de analiza din cadrul grupului de lucru pentru organizarea OSEPI, am decis că elevii care vor susține proba de acasă (în scenariul Online individual) au obligația de a realiza <b> două filmări audio/video (și nu 3 cum era anunțat inițial)</b>, cuprinzând:
 <br />(a) încăperea în care concurentul își desfășoară proba;
 <br />(b) activitatea de pe calculator (captând imaginea de pe ecran pe toată durata probei; recomandăm utilizarea softului OBS Studio).</p>
 
