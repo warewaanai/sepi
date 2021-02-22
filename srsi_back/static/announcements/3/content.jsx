@@ -1,4 +1,4 @@
-<p> Conform calendarului de desfășurare OSEPI (care se găsește în regulament) afișăm <a target="_blank" href={`${window.HOST}/static/regulament.pdf`}> lista elevilor înscriși</a>. </p>
+<p> Conform calendarului de desfășurare OSEPI (care se găsește în regulament) afișăm <a target="_blank" href={`${window.HOST}/static/participanti.pdf`}> lista elevilor înscriși</a>. </p>
 
 <p> Etapa verificării suplimentare, în județe, a corectitudinii datelor a fost deja demarată și se va desfășura în această săptămână.</p>
 
