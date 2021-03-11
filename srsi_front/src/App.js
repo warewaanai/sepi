@@ -11,7 +11,7 @@ import MemberPage from './pages/MemberPage'
 import InscriereOSEPI from './pages/OSEPI/Inscriere'
 import ContactPage from './pages/Contact'
 import OSEPI from './pages/OSEPI'
-
+import RezultatePage from './pages/Rezultate'
 import Menu from './components/menu'
 
 import './App.scss'
@@ -31,6 +31,7 @@ const App = props => {
                         <Route exact path="/osepi/inscriere" component={InscriereOSEPI}/>
                         <Route exact path="/membri" component={MembriPage}/>
                         <Route exact path="/membri/:name" component={MemberPage}/>
+                        <Route exact path="/rezultate" component={RezultatePage}/>
                     </Switch>
                 </div>
             </div>

@@ -45,6 +45,7 @@ const Menu = props => {
                 &gt; <Link to="/osepi/inscriere" onClick={toggleMenu}><span className="MenuLink">Înscriere</span></Link> <br/> <br/>
                 &gt; <a target="_blank" href={`${window.HOST}/static/regulament.pdf`} onClick={toggleMenu}><span className="MenuLink">Regulament</span></a> <br/> <br/>
                 &gt; <a target="_blank" href={`${window.HOST}/static/participanti_final.pdf`} onClick={toggleMenu}><span className="MenuLink">Participanți</span></a> <br/> <br/>
+                &gt; <Link to="/rezultate" onClick={toggleMenu}><span className="MenuLink">Rezultate</span></Link> <br/> <br/>
             </div>
         
             <a target="_blank" href="https://infopro.lrmd.ro" onClick={toggleMenu}> <span className="MenuLink">InfoPro</span> </a> <br/> <br/>
