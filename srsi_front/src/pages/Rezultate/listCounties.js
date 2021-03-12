@@ -19,10 +19,10 @@ const listCounties = () => {return {
     CV: "Covasna",
     DB: "Dâmbovița",
     DJ: "Dolj",
-    GL: "Galati",
+    GL: "Galați",
     GR: "Giurgiu",
     GJ: "Gorj",
-    HT: "Harghita",
+    HR: "Harghita",
     HD: "Hunedoara",
     IL: "Ialomița",
     IS: "Iași",
@@ -40,7 +40,7 @@ const listCounties = () => {return {
     TR: "Teleorman",
     TM: "Timiș",
     TL: "Tulcea",
-    VL: "Valcea",
+    VL: "Vâlcea",
     VS: "Vaslui",
     VN: "Vrancea"
 };
