@@ -103,6 +103,18 @@ def list_announcements():
 
     return res
 
+@app.route('/api/results/<contest>/<level>', methods=['GET'])
+def get_results(contest, level):
+    path = './static/results/' + contest + '/' + level + '.json'
+    if not is_safe_path(path):
+        return "forbidden", 403
+    if not os.path.exists(path):
+         return {"head":[], "body":[[]]}, 200
+    with open(path) as f:
+        table =  f.read()
+        #print(table)
+        return table, 200
+
 @app.route('/')
 def index():
     return render_template('index.html', token="")
