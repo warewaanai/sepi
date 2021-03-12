@@ -1,7 +1,6 @@
 
 const listCounties = () => {return {
-    general: "Clasament național",
-    B: "București", 
+    general: "Clasament național", 
     AB: "Alba",
     AR: "Arad",
     AG: "Argeș",
@@ -11,6 +10,7 @@ const listCounties = () => {return {
     BT: "Botoșani",
     BR: "Brăila",
     BV: "Brașov",
+    B: "București",
     BZ: "Buzău",
     CL: "Călărași",
     CS: "Caraș-Severin",

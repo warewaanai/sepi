@@ -14,8 +14,8 @@ const RezultatePage = props =>{
     const counties = listCounties();
     const contests = listContests();
     const levels = listLevels();
-    console.log(county);
-    console.log(scoreboard);
+    //console.log(county);
+    //console.log(scoreboard);
     return <div>
          <h1> <TermBlink blink>Rezultate OSEPI</TermBlink> </h1>
          <form onSubmit = {(event)=>{ setScoreboard(<Scoreboard county={county} level= {level} contest="OJI" />); event.preventDefault()}}>

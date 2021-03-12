@@ -9,18 +9,20 @@ const getResults = (contest, level, county) => {
     }
 
     const results = JSON.parse(window.sessionStorage.getItem(resultID(contest, level)));*/
-
     return fetchResults(contest, level).then(
         results =>{
-        console.log(results);
+        let count = 0;
 
         if (county == 'general') 
-            return results;
+            return {
+            "head": ["Index"].concat(results["head"]),
+            "body": results["body"].map(result => [++count].concat(result))
+            };
     
         //console.log(results);
         return {
-            "head": results["head"],
-            "body": results["body"].filter(result => result[0] == county)
+            "head": ["Index"].concat(results["head"]),
+            "body": results["body"].filter(result => result[0] == county).map(result => [++count].concat(result))
             };
         });
 }
