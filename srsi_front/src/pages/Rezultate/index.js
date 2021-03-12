@@ -28,9 +28,10 @@ const RezultatePage = props =>{
              <select value={level} onChange={(event)=>setLevel(event.target.value)}>
                  {levels.map( (level) => <option value={level}>{level}</option>)}
              </select>
-             <input type="submit" value="Submit" />
+             <input type="submit" value="Filtrează" />
          </form>
          {scoreboard}
+         <p>Rezultatele sunt provizorii (înainte de analiza materialelor video). Apar numai concurenții care au fost prezenți și au obținut puncte.</p>
     </div>
     
 }
