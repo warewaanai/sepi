@@ -18,6 +18,7 @@ const RezultatePage = props =>{
     //console.log(scoreboard);
     return <div>
          <h1> <TermBlink blink>Rezultate OSEPI</TermBlink> </h1>
+         <p>Rezultate finale OSEPI, etapa județeană, secțiunea liceu</p>
          <form onSubmit = {(event)=>{ setScoreboard(<Scoreboard county={county} level= {level} contest="OJI" />); event.preventDefault()}}>
              <select value={contest} onChange={(event)=>setContest(event.target.value)}>
                  {Object.keys(contests).map( (contest) => <option value={contest}>{contests[contest]}</option>)}
@@ -31,7 +32,10 @@ const RezultatePage = props =>{
              <input type="submit" value="Filtrează" />
          </form>
          {scoreboard}
-         <p>Rezultatele sunt provizorii (înainte de analiza materialelor video). Apar numai concurenții care au fost prezenți și au obținut puncte.</p>
+         <p>
+             Apar numai concurenții care au fost prezenți, au obținut puncte și au fost validați 
+             în urma analizării materialelor audio-video și a verificării surselor cu soft pentru detectarea plagiatului.
+        </p>
     </div>
     
 }
