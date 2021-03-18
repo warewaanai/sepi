@@ -3,7 +3,7 @@ import TermBlink from '../../components/termblink';
 
 const CalificatiPage = () =>{
     return <>
-        <h1><TermBlink blink>Calificați etapa națională</TermBlink></h1>
+        <h1><TermBlink blink>Calificați la etapa națională</TermBlink></h1>
         <ul>
            <li>
                 <a target="_blank" href={`${window.HOST}/static/qualified/9.pdf`}>Clasa a 9-a </a>
