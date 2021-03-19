@@ -9,8 +9,8 @@ import listLevels from './listLevels';
 const RezultatePage = props =>{
     const [contest, setContest] = useState("OJI");
     const [county, setCounty] = useState("general");
-    const [level, setLevel] = useState("10");
-    const [scoreboard, setScoreboard] = useState(<Scoreboard county={county} level="10" contest="OJI" />);
+    const [level, setLevel] = useState("9");
+    const [scoreboard, setScoreboard] = useState(<Scoreboard county={county} level="9" contest="OJI" />);
     const counties = listCounties();
     const contests = listContests();
     const levels = listLevels();
