@@ -7,7 +7,8 @@ const CalificatiPage = () =>{
     const [county, setCounty] = useState("general");
     const [level, setLevel] = useState("9");
     const [scoreboard, setScoreboard] = useState(<Scoreboard county={county} level="9" contest="qualified" />);
-    const counties = listCounties();
+    let counties = listCounties();
+    counties["general"] = "Toate județele"
     const levels = listLevels(true);
     return <>
         <h1><TermBlink blink>Calificați la etapa națională</TermBlink></h1>
