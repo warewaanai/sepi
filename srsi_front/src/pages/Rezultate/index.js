@@ -9,8 +9,8 @@ import listLevels from './listLevels';
 const RezultatePage = props =>{
     const [contest, setContest] = useState("OJI");
     const [county, setCounty] = useState("general");
-    const [level, setLevel] = useState("9");
-    const [scoreboard, setScoreboard] = useState(<Scoreboard county={county} level="9" contest="OJI" />);
+    const [level, setLevel] = useState("5");
+    const [scoreboard, setScoreboard] = useState(<Scoreboard county={county} level="5" contest="OJI" />);
     const counties = listCounties();
     const contests = listContests();
     const levels = listLevels();
@@ -18,7 +18,6 @@ const RezultatePage = props =>{
     //console.log(scoreboard);
     return <div>
          <h1> <TermBlink blink>Rezultate OSEPI</TermBlink> </h1>
-         <p>Rezultate finale OSEPI, etapa județeană, secțiunea liceu</p>
          <form onSubmit = {(event)=>{ setScoreboard(<Scoreboard county={county} level= {level} contest="OJI" />); event.preventDefault()}}>
              <select value={contest} onChange={(event)=>setContest(event.target.value)}>
                  {Object.keys(contests).map( (contest) => <option value={contest}>{contests[contest]}</option>)}
