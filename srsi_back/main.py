@@ -39,6 +39,19 @@ def list_members():
 
     return res
 
+@app.route('/api/round/<contest_name>')
+def list_rounds(contest_name):
+    path = './static/contests/' + contest_name + '.json'
+    if not is_safe_path(path):
+        return "forbidden", 403
+    if not os.path.exists(path):
+         return {}, 200
+    with open(path) as f:
+        table =  f.read()
+        #print(table)
+        return table, 200
+    return res
+
 @app.route('/api/content_member/<member>')
 def content_member(member):
     path = "./static/members/" + member + "/content.jsx"
