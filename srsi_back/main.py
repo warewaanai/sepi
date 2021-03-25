@@ -103,6 +103,31 @@ def list_announcements():
 
     return res
 
+
+@app.route('/api/list_sponsors', methods=['GET'])
+def get_sponsors():
+    res = {}
+    for filename in os.listdir('./static/sponsors'):
+        if filename[0] != '.':
+            with open("./static/sponsors/" + filename + "/meta.json") as f:
+                metadata = f.read()
+
+                tdict = json.loads(metadata)
+                res[filename] = tdict
+
+            for extension in [".png", ".jpg", ".jpeg", ".gif"]:
+                try:
+                    open("./static/sponsors/" + filename + "/logo" + extension)
+                    res[filename]["logo"] = "/static/sponsors/" + filename + "/logo" + extension
+                    break
+                except:
+                    res[filename]["logo"] = 0
+
+            res[filename] = json.dumps(res[filename])
+
+    return res
+
+
 @app.route('/api/results/<contest>/<level>', methods=['GET'])
 def get_results(contest, level):
     path = './static/results/' + contest + '/' + level + '.json'
@@ -114,6 +139,7 @@ def get_results(contest, level):
         table =  f.read()
         #print(table)
         return table, 200
+
 
 @app.route('/')
 def index():

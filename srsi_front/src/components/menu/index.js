@@ -55,6 +55,8 @@ const Menu = props => {
 
             <a href={`${window.HOST}/static/STATUTUL%20SEPI.pdf`} onClick={toggleMenu}> <span className="MenuLink">Statutul SEPI</span> </a> <br/> <br/>
 
+            <Link to="/sponsori" onClick={toggleMenu}> <span className="MenuLink">Sponsori</span> </Link> <br/> <br/>
+
             <Link to="/contact" onClick={toggleMenu}> <span className="MenuLink">Contact</span> </Link> <br/> <br/>
         </div>
     </>;

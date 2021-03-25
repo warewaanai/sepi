@@ -16,6 +16,7 @@ import Menu from './components/menu'
 
 import './App.scss'
 import CalificatiPage from './pages/Calificati';
+import SponsorsPage from './pages/Sponsori';
 
 const App = props => {
     return <>
@@ -34,6 +35,7 @@ const App = props => {
                         <Route exact path="/membri/:name" component={MemberPage}/>
                         <Route exact path="/rezultate" component={RezultatePage}/>
                         <Route exact path="/calificati" component={CalificatiPage}/>
+                        <Route exact path="/sponsori" component={SponsorsPage}/>
                     </Switch>
                 </div>
             </div>
