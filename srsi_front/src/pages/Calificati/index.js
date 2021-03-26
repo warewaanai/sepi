@@ -5,8 +5,8 @@ import listCounties from '../../pages/Rezultate/listCounties.js';
 import listLevels from '../../pages/Rezultate/listLevels.js';
 const CalificatiPage = () =>{
     const [county, setCounty] = useState("general");
-    const [level, setLevel] = useState("9");
-    const [scoreboard, setScoreboard] = useState(<Scoreboard county={county} level="9" contest="qualified" />);
+    const [level, setLevel] = useState("5");
+    const [scoreboard, setScoreboard] = useState(<Scoreboard county={county} level="5" contest="qualified" />);
     let counties = listCounties();
     counties["general"] = "Toate județele"
     const levels = listLevels(true);
@@ -25,6 +25,18 @@ const CalificatiPage = () =>{
         <div>
              <b>Format PDF</b>
           <ul>
+               <li>
+                    <a target="_blank" href={`${window.HOST}/static/qualified/5.pdf`}>Clasa a 5-a </a>
+               </li>
+               <li>
+                     <a target="_blank" href={`${window.HOST}/static/qualified/6.pdf`}>Clasa a 6-a</a>
+               </li>
+               <li>
+                    <a target="_blank" href={`${window.HOST}/static/qualified/7.pdf`}>Clasa a 7-a</a>
+               </li>
+               <li>
+                    <a target="_blank" href={`${window.HOST}/static/qualified/8.pdf`}>Clasa a 8-a</a>
+               </li>
                <li>
                     <a target="_blank" href={`${window.HOST}/static/qualified/9q.pdf`}>Clasa a 9-a </a>
                </li>

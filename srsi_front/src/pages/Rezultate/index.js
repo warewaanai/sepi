@@ -32,11 +32,6 @@ const RezultatePage = props =>{
          </form>
          {scoreboard}
          <p>
-            <b>Pentru gimnaziu:</b> <br />
-            Rezultatele sunt provizorii (înainte de analizarea materialelor video). Apar numai concurenții care au fost prezenți și au obținut puncte.
-         </p>
-         <p>
-             <b>Pentru liceu:</b> <br />
              Apar numai concurenții care au fost prezenți, au obținut puncte și au fost validați 
              în urma analizării materialelor audio-video și a verificării surselor cu soft pentru detectarea plagiatului.
         </p>
