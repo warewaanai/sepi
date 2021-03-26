@@ -128,7 +128,7 @@ def get_sponsors():
                 tdict = json.loads(metadata)
                 res[filename] = tdict
 
-            for extension in [".png", ".jpg", ".jpeg", ".gif"]:
+            for extension in [".png", ".jpg", ".jpeg", ".gif", ".svg"]:
                 try:
                     open("./static/sponsors/" + filename + "/logo" + extension)
                     res[filename]["logo"] = "/static/sponsors/" + filename + "/logo" + extension

@@ -9,7 +9,7 @@ const SponsorCard = props => {
     return <a class="SponsorLink" href={props.link}>
         <div class="SponsorCard">
                 <div class={containerType}>
-                    <img class="SponsorLogo" src={props.logo}/>
+                    <img style={{height:props.height}} src={props.logo}/>
                 </div>
             <div class="SponsorName">
                 {props.name}

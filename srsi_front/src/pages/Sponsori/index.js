@@ -14,7 +14,7 @@ const SponsorsPage = props =>{
                 name={key}
                 logo={window.HOST + sponsor.logo}
                 link={sponsor.link}
-                horizontal={sponsor.horizontal}
+                height={sponsor.height}
             />
         );
 
