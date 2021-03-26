@@ -49,7 +49,9 @@ const Menu = props => {
                 &gt; <Link to="/calificati" onClick={toggleMenu}><span className="MenuLink">Calificați națională</span></Link> <br/> <br/>
                 &gt; <Link to="/etape" onClick={toggleMenu}><span className="MenuLink">Etape precedente</span></Link> <br/> <br/>
             </div>
-        
+
+            <a target="_blank" href={`${window.HOST}/static/educational/articol.pdf`} onClick={toggleMenu}><span className="MenuLink">Articolul educațional</span></a> <br/> <br/>
+
             <a target="_blank" href="https://infopro.lrmd.ro" onClick={toggleMenu}> <span className="MenuLink">InfoPro</span> </a> <br/> <br/>
 
             <Link to="/membri" onClick={toggleMenu}> <span className="MenuLink">Membri</span> </Link> <br/> <br/>
@@ -57,8 +59,6 @@ const Menu = props => {
             <a href={`${window.HOST}/static/STATUTUL%20SEPI.pdf`} onClick={toggleMenu}> <span className="MenuLink">Statutul SEPI</span> </a> <br/> <br/>
 
             <Link to="/sponsori" onClick={toggleMenu}> <span className="MenuLink">Sponsori</span> </Link> <br/> <br/>
-
-            <a target="_blank" href={`${window.HOST}/static/educational/articol.pdf`} onClick={toggleMenu}><span className="MenuLink">Articolul educațional</span></a> <br/> <br/>
 
             <Link to="/contact" onClick={toggleMenu}> <span className="MenuLink">Contact</span> </Link> <br/> <br/>
         </div>
