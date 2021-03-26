@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/react/css/main.e407d463.chunk.css",
+    "main.css": "/static/react/css/main.e0e9c6d2.chunk.css",
     "main.js": "/static/react/js/main.6fc0010f.chunk.js",
     "main.js.map": "/static/react/js/main.6fc0010f.chunk.js.map",
     "runtime-main.js": "/static/react/js/runtime-main.f4864d25.js",
@@ -8,7 +8,7 @@
     "js/2.f9ef64f0.chunk.js": "/static/react/js/2.f9ef64f0.chunk.js",
     "js/2.f9ef64f0.chunk.js.map": "/static/react/js/2.f9ef64f0.chunk.js.map",
     "../../templates/index.html": "/static/react/../../templates/index.html",
-    "css/main.e407d463.chunk.css.map": "/static/react/css/main.e407d463.chunk.css.map",
+    "css/main.e0e9c6d2.chunk.css.map": "/static/react/css/main.e0e9c6d2.chunk.css.map",
     "js/2.f9ef64f0.chunk.js.LICENSE.txt": "/static/react/js/2.f9ef64f0.chunk.js.LICENSE.txt",
     "media/App.scss": "/static/react/media/JetBrainsMono-Regular.7f9e93f2.ttf",
     "media/acc.28fb01b7.png": "/static/react/media/acc.28fb01b7.png",
@@ -29,7 +29,7 @@
   "entrypoints": [
     "js/runtime-main.f4864d25.js",
     "js/2.f9ef64f0.chunk.js",
-    "css/main.e407d463.chunk.css",
+    "css/main.e0e9c6d2.chunk.css",
     "js/main.6fc0010f.chunk.js"
   ]
 }
