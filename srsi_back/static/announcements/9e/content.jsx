@@ -3,7 +3,7 @@
 </p>
     
 <p>
-Programul etapei naționale OSEPI este următorul:
+Programul <b>etapei naționale</b> OSEPI este următorul:
 </p>
 
 <p>
