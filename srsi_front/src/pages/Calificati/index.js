@@ -35,7 +35,7 @@ const CalificatiPage = () =>{
                     <a target="_blank" href={`${window.HOST}/static/qualified/7.pdf`}>Clasa a 7-a</a>
                </li>
                <li>
-                    <a target="_blank" href={`${window.HOST}/static/qualified/8.pdf`}>Clasa a 8-a</a>
+                    <a target="_blank" href={`${window.HOST}/static/qualified/8q.pdf`}>Clasa a 8-a</a>
                </li>
                <li>
                     <a target="_blank" href={`${window.HOST}/static/qualified/9q.pdf`}>Clasa a 9-a </a>
