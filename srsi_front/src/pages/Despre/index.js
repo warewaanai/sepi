@@ -5,11 +5,12 @@ import './stylesheet.scss';
 import Prezentare from './prezentare.js'
 import Misiune from './misiune.js'
 import Parteneri from './parteneri.js'
-
+import Anunt from './anunt.js'
 import warning from './warning.png'
 
 const DesprePage = props => {
     return <>
+        <Anunt />
         <Prezentare />
         <Misiune />
         <br />
