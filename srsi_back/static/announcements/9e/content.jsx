@@ -35,13 +35,13 @@ Programul <b>etapei naționale</b> OSEPI este următorul:
 </p>
 
 <p>
-    La probele de baraj pentru formarea loturilor naționale participă toți concurenții care au obținut punctaj nenul în cadrul probei de la etapa națională.
+    La probele de baraj pentru formarea loturilor naționale pot participa toți concurenții calificați la etapa națională.
     Conform regulamentului, în realizarea clasamentelor finale, nu se iau în calcul coeficienți proveniți din punctajele probelor pe clase.
 </p>
 
 <div color="blue">
 <p>
-    Ținând cont de evoluția pandemiei nu se pune problema obligativității organizării etapei naționale în de centre de concurs, rămân așadar valabile aceleași scenarii ca la etapa județeană.
+    Ținând cont de evoluția pandemiei nu se pune problema obligativității organizării etapei naționale în centre de concurs, rămân așadar valabile aceleași scenarii ca la etapa județeană.
 </p>
 
 <p>
