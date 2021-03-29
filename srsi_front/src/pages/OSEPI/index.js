@@ -31,8 +31,8 @@ const OSEPI = props => {
     useEffect(() => {
         if (announcements === 0 || announcements === [])
             fetch(window.HOST + "/api/list_announcements").then(res => res.json()).then(res => setAnnouncements(res));
-        else
-            console.log(announcements);
+        /*else 
+        console.log(announcements);*/
     });
 
     let announcementArticles = [];
