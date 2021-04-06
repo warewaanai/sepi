@@ -309,3 +309,27 @@
         Adresa de pe care se face solicitarea trebuie să fie cea de pe care concurentul s-a înscris.
     </p>
 </div>
+
+<div>
+    <h3>Actualizare (6 aprilie)</h3>
+    <p>
+        Pe lângă sistemul de medalii prevăzut în regulament, concurenții OSEPI vor fi recompensați cu premii astfel:
+    </p>
+    <ul>
+        <li>
+            10% dintre elevii clasați în prima jumătate vor fi recompensați cu premiul I
+        </li>
+        <li>
+            20% dintre elevii clasați în prima jumătate vor fi recompensați cu premiul II (astfel 30% vor obține premii I și II)
+        </li>
+        <li>
+            30% dintre elevii clasați în prima jumătate vor fi recompensați cu premiul III (astfel 60% vor obține premii I, II și III)
+        </li>
+        <li>
+            Ceilalți premianți vor fi recompensați cu mențiune
+        </li>
+    </ul>
+    <p>
+        La egalitate de puncte la ultimul loc premiant cu o anume distincție, se acordă cea mai valoroasă. Diplomele se vor acorda electronic, după modelul competițiilor internaționale.
+    </p>
+</div>
