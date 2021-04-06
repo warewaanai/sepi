@@ -317,6 +317,9 @@
     </p>
     <ul>
         <li>
+        Jumătate dintre participanții de la o clasă vor fi premiați (lista se poate extinde pentru a-i cuprinde pe toți cei care au același punctaj egal cu ultimul din prima jumătate)
+        </li>
+        <li>
             10% dintre elevii clasați în prima jumătate vor fi recompensați cu premiul I
         </li>
         <li>
