@@ -9,6 +9,7 @@ const getResults = (contest, level, county, scoreIndex=1) => {
     }
 
     const results = JSON.parse(window.sessionStorage.getItem(resultID(contest, level)));*/
+    console.log(scoreIndex);
     return fetchResults(contest, level).then(
         results =>{
         let count = 0, lastScore = -1, before = 0;

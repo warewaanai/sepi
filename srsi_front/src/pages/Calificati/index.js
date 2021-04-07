@@ -6,13 +6,13 @@ import listLevels from '../../pages/Rezultate/listLevels.js';
 const CalificatiPage = () =>{
     const [county, setCounty] = useState("general");
     const [level, setLevel] = useState("5");
-    const [scoreboard, setScoreboard] = useState(<Scoreboard county={county} level="5" contest="qualified" />);
+    const [scoreboard, setScoreboard] = useState(<Scoreboard county={county} level="5" contest="qualified" indexed={2}/>);
     let counties = listCounties();
     counties["general"] = "Toate județele"
     const levels = listLevels(true);
     return <>
         <h1><TermBlink blink>Calificați la etapa națională</TermBlink></h1>
-        <form onSubmit = {(event)=>{ setScoreboard(<Scoreboard county={county} level= {level} contest="qualified" />); event.preventDefault()}}>
+        <form onSubmit = {(event)=>{ setScoreboard(<Scoreboard county={county} level= {level} contest="qualified" indexed={2}/>); event.preventDefault()}}>
              <select value={county} onChange={(event)=>setCounty(event.target.value)}>
                  {Object.keys(counties).map( (county) => <option value={county}>{counties[county]}</option>)}
              </select>

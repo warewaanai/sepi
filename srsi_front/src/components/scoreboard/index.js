@@ -6,8 +6,9 @@ import './stylesheet.scss';
 const Scoreboard = props => {
     console.log(props)
     const [resultsTable, setResultsTable]  = useState(0);
+    const resultsIndex = props.indexed ? props.indexed : 1;
     useEffect(() => {
-        getResults(props.contest, props.level, props.county).then(content => setResultsTable(content))
+        getResults(props.contest, props.level, props.county, resultsIndex).then(content => setResultsTable(content))
     },
     [props]);
     //console.log(resultsTable);
