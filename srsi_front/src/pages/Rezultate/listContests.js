@@ -1,5 +1,6 @@
 const listContests = () => {return {
-    OJI: "Etapa județeană"
+    OJI: "Etapa județeană",
+    ONI: "Etapa națională"
 }
 }
 
