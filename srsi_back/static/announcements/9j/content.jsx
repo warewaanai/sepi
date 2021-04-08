@@ -64,7 +64,7 @@
         Modul de desfășurare este asemănător cu acela de la etapa națională.
     </p>
     <p>
-        Vă rugăm să trimiteți filmările completând următorul <b>formular</b> (linkul va apărea în curând).
+        Vă rugăm să trimiteți filmările completând următorul <a href="https://forms.gle/zurR6956RhGLaDuFA" target="_blank" style="font-weight:bold">formular</a>.
     </p>
     <p>
         Pentru proba de baraj juniori trebuie să intrați pe linkul <a href="https://drive.google.com/drive/folders/1rUN5ZCStbTFKrPsAUJ7X-83KJ381vy2D?usp=sharing" target="_blank" style="font-weight:bold">acesta</a> 
@@ -94,7 +94,7 @@
         Modul de desfășurare este asemănător cu acela de la etapa națională.
     </p>
     <p>
-        Vă rugăm să trimiteți filmările completând următorul <b>formular</b> (linkul va apărea în curând).
+        Vă rugăm să trimiteți filmările completând următorul <a href="https://forms.gle/cJ6JxrCYDPuKm6jT6" target="_blank" style="font-weight:bold">formular</a>.
     </p>
     <p>
         Pentru proba de la primul baraj al seniorilor trebuie să intrați pe linkul <a href="https://drive.google.com/drive/folders/1r8xsQ0H4hBhVkuOhdlBmzkiSUm7_1Pcd?usp=sharing" target="_blank" style="font-weight:bold">acesta</a> 
@@ -130,7 +130,7 @@
         Modul de desfășurare este asemănător cu acela de la etapa națională.
     </p>
     <p>
-        Vă rugăm să trimiteți filmările completând următorul <b>formular</b> (linkul va apărea în curând).
+        Vă rugăm să trimiteți filmările completând următorul <a href="https://forms.gle/ECZopXgmcfhi7iqe7" target="_blank" style="font-weight:bold">formular</a>.
     </p>
     <p>
         Pentru proba de la primul baraj al seniorilor trebuie să intrați pe linkul <a href="https://drive.google.com/drive/folders/1CeQHWkZTvQgLqB_TI_S1GwgshvEJ961B?usp=sharing" target="_blank" style="font-weight:bold">acesta</a> 
