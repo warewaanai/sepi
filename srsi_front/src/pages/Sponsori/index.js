@@ -1,7 +1,7 @@
 import React, { useState, useEffect }  from 'react';
 import SponsorCard from '../../components/sponsorcard';
 import TermBlink from '../../components/termblink';
-
+import './stylesheet.scss';
 const SponsorsPage = props =>{
     const [sponsors, setSponsors] = useState()
     useEffect(() => {fetch(window.HOST + "/api/list_sponsors").then(res => res.json()).then(res => setSponsors(res))}, [])

@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/react/css/main.52f36ad1.chunk.css",
-    "main.js": "/static/react/js/main.2d5dfdeb.chunk.js",
-    "main.js.map": "/static/react/js/main.2d5dfdeb.chunk.js.map",
+    "main.css": "/static/react/css/main.feb45ff6.chunk.css",
+    "main.js": "/static/react/js/main.7096e177.chunk.js",
+    "main.js.map": "/static/react/js/main.7096e177.chunk.js.map",
     "runtime-main.js": "/static/react/js/runtime-main.f4864d25.js",
     "runtime-main.js.map": "/static/react/js/runtime-main.f4864d25.js.map",
     "js/2.9551487d.chunk.js": "/static/react/js/2.9551487d.chunk.js",
     "js/2.9551487d.chunk.js.map": "/static/react/js/2.9551487d.chunk.js.map",
     "../../templates/index.html": "/static/react/../../templates/index.html",
-    "css/main.52f36ad1.chunk.css.map": "/static/react/css/main.52f36ad1.chunk.css.map",
+    "css/main.feb45ff6.chunk.css.map": "/static/react/css/main.feb45ff6.chunk.css.map",
     "js/2.9551487d.chunk.js.LICENSE.txt": "/static/react/js/2.9551487d.chunk.js.LICENSE.txt",
     "media/App.scss": "/static/react/media/JetBrainsMono-Regular.7f9e93f2.ttf",
     "media/acc.28fb01b7.png": "/static/react/media/acc.28fb01b7.png",
@@ -29,7 +29,7 @@
   "entrypoints": [
     "js/runtime-main.f4864d25.js",
     "js/2.9551487d.chunk.js",
-    "css/main.52f36ad1.chunk.css",
-    "js/main.2d5dfdeb.chunk.js"
+    "css/main.feb45ff6.chunk.css",
+    "js/main.7096e177.chunk.js"
   ]
 }
