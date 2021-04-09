@@ -83,6 +83,13 @@
     <p>
         Ca și la etapa națională, punctajul la o problemă este cel mai mare dintre toate submisiile de la acea problemă.
     </p>
+    <p>
+        <p>
+            La una sau mai multe probleme, comisia poate decide gruparea testelor în subtaskuri. <br />
+            În acest caz, scorul unui subtask pentru o singură submisie este minimul scorurilor acordate testelor din subtask. Scorul unui subtask va fi scorul maxim obținut din toate submisiile. Scorul unei probleme va fi suma scorurilor din toate subtask-urile. (Modelul aplicat la IOI începând din 2017).
+        </p>
+
+    </p>
 </div>
 
 <div>
