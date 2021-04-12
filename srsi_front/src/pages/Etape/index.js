@@ -14,6 +14,7 @@ const EtapePage = props =>{
 
     return <>
         <h1> <TermBlink blink>Etape precedente</TermBlink> </h1>
+        <p>Enunțuri, descrieri de soluții, teste și rezultate ale etapelor precedente OSEPI</p>
         <h3>Etapa județeană</h3>
         <ul>
             {Object.keys(levelLinksOJI).map(cell => (<li><a href ={levelLinksOJI[cell]}>{levelNamesOJI[cell]}</a></li>))}
