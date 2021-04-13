@@ -48,6 +48,7 @@ const Menu = props => {
                 &gt; <Link to="/rezultate" onClick={toggleMenu}><span className="MenuLink">Rezultate</span></Link> <br/> <br/>
                 &gt; <Link to="/calificati" onClick={toggleMenu}><span className="MenuLink">Calificați națională</span></Link> <br/> <br/>
                 &gt; <Link to="/etape" onClick={toggleMenu}><span className="MenuLink">Etape precedente</span></Link> <br/> <br/>
+                &gt; <Link to="/distinctii" onClick={toggleMenu}><span className="MenuLink">Distincții etapa națională</span></Link> <br/> <br/>
             </div>
 
             <a target="_blank" href={`${window.HOST}/static/educational/articol.pdf`} onClick={toggleMenu}><span className="MenuLink">Articolul educațional</span></a> <br/> <br/>

@@ -13,6 +13,7 @@ import ContactPage from './pages/Contact'
 import OSEPI from './pages/OSEPI'
 import RezultatePage from './pages/Rezultate'
 import Menu from './components/menu'
+import DistinctiiPage from './pages/Distinctii'
 
 import './App.scss'
 import CalificatiPage from './pages/Calificati';
@@ -35,6 +36,7 @@ const App = props => {
                         <Route exact path="/membri" component={MembriPage}/>
                         <Route exact path="/membri/:name" component={MemberPage}/>
                         <Route exact path="/rezultate" component={RezultatePage}/>
+                        <Route exact path="/distinctii" component={DistinctiiPage}/>
                         <Route exact path="/calificati" component={CalificatiPage}/>
                         <Route exact path="/sponsori" component={SponsorsPage}/>
                         <Route exact path="/etape" component={EtapePage}/>
