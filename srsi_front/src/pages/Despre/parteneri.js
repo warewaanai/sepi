@@ -16,6 +16,8 @@ import UVT from './uvt.jpg'
 import upir from './upir.gif'
 import univiasi from './univiasi.jpg'
 import bolyai from './babes_bolyai.gif'
+import revista_infobits from './revista_infobits.png'
+import infobits_academy from './infobits_academy.png'
 
 const PartenerCard = props => {
     return (
@@ -32,9 +34,9 @@ const Parteneri = props => {
         <h1><TermBlink>Partenerii noștri</TermBlink></h1>
 
         <Carousel content={[
-            [{link: "https://pbinfo.ro/", pic: Pbinfo}, {link: "http://upir.ro/index.php/ro/", pic: upir}, {link: "https://profs.info.uaic.ro/~consortiu/index.html", pic: universitaria}],
+            [{link: "https://pbinfo.ro/", pic: Pbinfo}, {link: "http://upir.ro/index.php/ro/", pic: upir}, {link: "https://profs.info.uaic.ro/~consortiu/index.html", pic: universitaria}, {link: "https://www.infobits.ro/", pic: infobits_academy}],
             [{link: "https://infoarena.ro/", pic: Infoarena}, {link: "https://www.info.uaic.ro/", pic: FII}, {link: "https://www.uaic.ro/", pic: univiasi}, {link: "https://liceecentenare.ro/", pic: ACC}],
-            [{link: "https://rms.unibuc.ro/", pic: SSMR}, {link: "https://www.uvt.ro/ro/", pic: UVT}, {link: "https://unibuc.ro/", pic: unibuc}, {link: "https://www.ubbcluj.ro/ro/", pic: bolyai}]
+            [{link: "https://rms.unibuc.ro/", pic: SSMR}, {link: "https://www.uvt.ro/ro/", pic: UVT}, {link: "https://unibuc.ro/", pic: unibuc}, {link: "https://www.ubbcluj.ro/ro/", pic: bolyai}, {link: "https://revista.infobits.ro/", pic: revista_infobits}]
         ]}/>
     </div>
 };

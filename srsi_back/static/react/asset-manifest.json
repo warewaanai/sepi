@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/react/css/main.321de654.chunk.css",
-    "main.js": "/static/react/js/main.1a288bcb.chunk.js",
-    "main.js.map": "/static/react/js/main.1a288bcb.chunk.js.map",
+    "main.js": "/static/react/js/main.0fb586e3.chunk.js",
+    "main.js.map": "/static/react/js/main.0fb586e3.chunk.js.map",
     "runtime-main.js": "/static/react/js/runtime-main.f4864d25.js",
     "runtime-main.js.map": "/static/react/js/runtime-main.f4864d25.js.map",
     "js/2.9551487d.chunk.js": "/static/react/js/2.9551487d.chunk.js",
@@ -15,9 +15,11 @@
     "media/babes_bolyai.d9dd75b1.gif": "/static/react/media/babes_bolyai.d9dd75b1.gif",
     "media/defaultAvatar.c3f94521.png": "/static/react/media/defaultAvatar.c3f94521.png",
     "media/infoarena.d5f5add2.png": "/static/react/media/infoarena.d5f5add2.png",
+    "media/infobits_academy.9aa96e36.png": "/static/react/media/infobits_academy.9aa96e36.png",
     "media/logo.b86c36aa.jpg": "/static/react/media/logo.b86c36aa.jpg",
     "media/menuIcon.7f471b33.png": "/static/react/media/menuIcon.7f471b33.png",
     "media/pbinfo.28a498e8.png": "/static/react/media/pbinfo.28a498e8.png",
+    "media/revista_infobits.1184b552.png": "/static/react/media/revista_infobits.1184b552.png",
     "media/ssmr.4672754b.png": "/static/react/media/ssmr.4672754b.png",
     "media/unibuc.23830358.jpg": "/static/react/media/unibuc.23830358.jpg",
     "media/universitaria.5000052d.png": "/static/react/media/universitaria.5000052d.png",
@@ -30,6 +32,6 @@
     "js/runtime-main.f4864d25.js",
     "js/2.9551487d.chunk.js",
     "css/main.321de654.chunk.css",
-    "js/main.1a288bcb.chunk.js"
+    "js/main.0fb586e3.chunk.js"
   ]
 }
