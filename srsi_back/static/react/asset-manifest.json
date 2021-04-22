@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/react/css/main.321de654.chunk.css",
-    "main.js": "/static/react/js/main.5096d838.chunk.js",
-    "main.js.map": "/static/react/js/main.5096d838.chunk.js.map",
+    "main.js": "/static/react/js/main.80bd068a.chunk.js",
+    "main.js.map": "/static/react/js/main.80bd068a.chunk.js.map",
     "runtime-main.js": "/static/react/js/runtime-main.f4864d25.js",
     "runtime-main.js.map": "/static/react/js/runtime-main.f4864d25.js.map",
     "js/2.9551487d.chunk.js": "/static/react/js/2.9551487d.chunk.js",
@@ -25,6 +25,7 @@
     "media/universitaria.5000052d.png": "/static/react/media/universitaria.5000052d.png",
     "media/univiasi.8a643c53.jpg": "/static/react/media/univiasi.8a643c53.jpg",
     "media/upir.e60875e6.gif": "/static/react/media/upir.e60875e6.gif",
+    "media/upit.ca922b69.png": "/static/react/media/upit.ca922b69.png",
     "media/uvt.a0707e23.jpg": "/static/react/media/uvt.a0707e23.jpg",
     "media/warning.38c6403f.png": "/static/react/media/warning.38c6403f.png"
   },
@@ -32,6 +33,6 @@
     "js/runtime-main.f4864d25.js",
     "js/2.9551487d.chunk.js",
     "css/main.321de654.chunk.css",
-    "js/main.5096d838.chunk.js"
+    "js/main.80bd068a.chunk.js"
   ]
 }
