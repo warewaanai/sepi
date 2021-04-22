@@ -40,4 +40,6 @@
     <a href="https://drive.google.com/drive/folders/1NCY8yKefLdePIQ9LSfDWw8yJwKcuVkDf?usp=sharing" target="_blank" style="font-weight:bold">acest link</a>.
 </p>
 
-Pentru lămuriri suplimentare puteți folosi adresa de email <a href="mailto:contact@sepi.ro">contact@sepi.ro</a>.
+<p>
+    Pentru lămuriri suplimentare puteți folosi adresa de email <a href="mailto:contact@sepi.ro">contact@sepi.ro</a>.
+</p>

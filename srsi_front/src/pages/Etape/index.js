@@ -13,7 +13,7 @@ const EtapePage = props =>{
 
 
     return <>
-        <h1> <TermBlink blink>Etape precedente</TermBlink> </h1>
+        <h1> <TermBlink blink>Arhiva OSEPI</TermBlink> </h1>
         <p>Enunțuri, descrieri de soluții, teste și rezultate ale etapelor precedente OSEPI</p>
         <h3>Etapa județeană</h3>
         <ul>
