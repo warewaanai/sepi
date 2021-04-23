@@ -1,9 +1,4 @@
 <p>
-    Dragi concurenți,
-</p>
-
-
-<p>
     De mâine și până miercuri avem un nou maraton de programare competițională: barajele pentru selectarea echipelor reprezentative: trei probe pentru lotul de juniori și trei probe pentru lotul de seniori.
 </p>
 <p>
