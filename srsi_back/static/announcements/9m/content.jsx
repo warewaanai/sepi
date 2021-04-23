@@ -1,5 +1,3 @@
-<p>Dragi concurenți</p>
-
 <p>
 
     Azi ne-am confruntat cu probleme deosebite în timpul probei de baraj seniori.   
