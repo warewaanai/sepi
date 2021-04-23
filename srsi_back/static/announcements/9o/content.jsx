@@ -2,6 +2,12 @@
     De mâine și până miercuri avem un nou maraton de programare competițională: barajele pentru selectarea echipelor reprezentative: trei probe pentru lotul de juniori și trei probe pentru lotul de seniori.
 </p>
 <p>
+    Organizarea acestei etape e fost demarată imediat după încheierea celei naționale. Cu membrii loturilor s-a păstrat contact inclusiv prin întâlniri video.
+</p>
+<p>
+    Iată câteva informații (utile întregii comunități, mai ales prin faptul că după probe vor fi puse la dispoziție enunțuri, teste, descrieri ale soluțiilor, reultate):
+</p>
+<p>
     Toți elevii vor susține probele pe scenariul online instituțional.
 </p>
 <p>
