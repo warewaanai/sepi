@@ -12,7 +12,7 @@
 </p>
 <p>
     Produsele video se vor trimite până la finalul zilei de concurs prin intermediul unor formulare, în mod similar cu acela folosit la etapa națională: 
-    pentru juniori <a href="https://forms.gle/zurR6956RhGLaDuFA" target="_blank" style="font-weight:bold">aici</a>, pentru seniori <a href="https://forms.gle/cJ6JxrCYDPuKm6jT6" target="_blank" style="font-weight:bold">aici</a>
+    pentru juniori <a href="https://forms.gle/zurR6956RhGLaDuFA" target="_blank" style="font-weight:bold">aici</a>, pentru seniori <a href="https://docs.google.com/forms/d/e/1FAIpQLSfk5kvcS55k5r8CxrijGK5fQSNvNXzF4HXj6960Y4wiNfCSbw/viewform" target="_blank" style="font-weight:bold">aici</a>
     (se va folosi același formular pentru fiecare dintre cele trei baraje).
 </p>
 
