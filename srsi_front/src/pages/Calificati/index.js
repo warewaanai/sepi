@@ -9,7 +9,7 @@ const CalificatiPage = () =>{
     const [scoreboard, setScoreboard] = useState(<Scoreboard county={county} level="5" contest="qualified" indexed={2}/>);
     let counties = listCounties();
     counties["general"] = "Toate județele"
-    const levels = listLevels(true);
+    const levels = listLevels("OJI");
     return <>
         <h1><TermBlink blink>Calificați la etapa națională</TermBlink></h1>
         <form onSubmit = {(event)=>{ setScoreboard(<Scoreboard county={county} level= {level} contest="qualified" indexed={2}/>); event.preventDefault()}}>

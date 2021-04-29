@@ -23,6 +23,7 @@ const EtapePage = props =>{
         <ul>
             {Object.keys(levelLinksONI).map(cell => (<li><a href ={levelLinksONI[cell]}>{levelNamesONI[cell]}</a></li>))}
         </ul>
+        <h3><a href="https://drive.google.com/drive/folders/1NCY8yKefLdePIQ9LSfDWw8yJwKcuVkDf">Lotul național</a></h3>
     </>
 }
 

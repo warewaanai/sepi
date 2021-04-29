@@ -1,9 +1,10 @@
-const listLevels = (reduced=false) => {
+const listLevels = (type="OJI") => {
     let levels = [];
-    for(let i = 5; i<=12; i+=1)
+    if(type == "OJI" || type == "ONI")
+     for(let i = 5; i<=12; i+=1)
         levels.push(i.toString());
-    if(!reduced) levels.push("baraj");
-    if(!reduced) levels.push("baraj juniori");
+    if(type == "ONI" || type == "Lot") levels.push("baraj");
+    if(type == "ONI" || type == "Lot") levels.push("baraj juniori");
     return levels;
 }
 

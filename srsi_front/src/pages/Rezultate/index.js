@@ -13,8 +13,9 @@ const RezultatePage = props =>{
     const [scoreboard, setScoreboard] = useState(<Scoreboard county={county} level="5" contest="OJI" />);
     const counties = listCounties();
     const contests = listContests();
-    const levels = listLevels();
-    //console.log(county);
+    const levels = listLevels(contest);
+    if(contest == "Lot" && level =="5")
+        setLevel("baraj");
     //console.log(scoreboard);
     return <div>
          <h1> <TermBlink blink>Rezultate OSEPI</TermBlink> </h1>
@@ -31,16 +32,6 @@ const RezultatePage = props =>{
              <input type="submit" value="Filtrează" />
          </form>
          {scoreboard}
-         <p>
-             <b>Etapa județeană:</b> <br />
-             Apar numai concurenții care au fost prezenți, au obținut puncte și au fost validați 
-             în urma analizării materialelor audio-video și a verificării surselor cu soft pentru detectarea plagiatului.
-        </p>
-        <p>
-            <b>Etapa națională:</b> <br />
-            Rezultatele sunt provizorii (înainte de analizarea materialelor video).
-            Apar numai concurenții care au fost prezenți și au obținut puncte.
-        </p>
     </div>
     
 }
