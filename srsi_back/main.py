@@ -2,11 +2,13 @@ import functools
 import json
 import time
 import os
+import datetime
 
 from flask import Flask, request, Response, render_template, redirect
 from flask_cors import CORS
 
 app = Flask(__name__)
+#app.config['SEND_FILE_MAX_AGE_DEFAULT'] = datetime.timedelta(minutes=1)
 CORS(app) # remove in Production
 
 # member API
