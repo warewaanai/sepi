@@ -46,8 +46,9 @@ const Menu = props => {
                 &gt; <a target="_blank" href={`${window.HOST}/static/regulament.pdf`} onClick={toggleMenu}><span className="MenuLink">Regulament</span></a> <br/> <br/>
                 &gt; <a target="_blank" href={`${window.HOST}/static/participanti_final.pdf`} onClick={toggleMenu}><span className="MenuLink">Participanți</span></a> <br/> <br/>
                 &gt; <Link to="/rezultate" onClick={toggleMenu}><span className="MenuLink">Rezultate</span></Link> <br/> <br/>
-                &gt; <Link to="/distinctii" onClick={toggleMenu}><span className="MenuLink">Distincții etapa națională</span></Link> <br/> <br/>
+                &gt; <Link to="/distinctii-judet" onClick={toggleMenu}><span className="MenuLink">Distincții etapa județeană</span></Link> <br/> <br/>
                 &gt; <Link to="/calificati" onClick={toggleMenu}><span className="MenuLink">Calificați națională</span></Link> <br/> <br/>
+                &gt; <Link to="/distinctii" onClick={toggleMenu}><span className="MenuLink">Distincții etapa națională</span></Link> <br/> <br/>
                 &gt; <Link to="/etape" onClick={toggleMenu}><span className="MenuLink">Arhiva</span></Link> <br/> <br/>
             </div>
 

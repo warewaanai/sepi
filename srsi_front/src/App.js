@@ -14,6 +14,7 @@ import OSEPI from './pages/OSEPI'
 import RezultatePage from './pages/Rezultate'
 import Menu from './components/menu'
 import DistinctiiPage from './pages/Distinctii'
+import DistinctiiOJIPage from './pages/DistinctiiOJI'
 
 import './App.scss'
 import CalificatiPage from './pages/Calificati';
@@ -40,6 +41,7 @@ const App = props => {
                         <Route exact path="/calificati" component={CalificatiPage}/>
                         <Route exact path="/sponsori" component={SponsorsPage}/>
                         <Route exact path="/etape" component={EtapePage}/>
+                        <Route exact path="/distinctii-judet" component={DistinctiiOJIPage}/>
                     </Switch>
                 </div>
             </div>
