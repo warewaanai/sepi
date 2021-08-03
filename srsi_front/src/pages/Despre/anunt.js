@@ -2,7 +2,8 @@
 import './anunt.scss'
 const Anunt = props => {
     return <div id="Anunt">
-        Vă invităm să citiți <a target="_blank" href={`${window.HOST}/static/educational/articol.pdf`} >articolul educațional SEPI al acestui an</a>.
+        România este gazda ediției din acest an a <a href="http://www.sepi.ro/ejoi/2021">Olimpiadei Europene de Informatică pentru Juniori</a>, 
+        organizată de SEPI, la Ploiești, în parteneriat cu Centrul de Excelență Prahova.
     </div>
 }
 
